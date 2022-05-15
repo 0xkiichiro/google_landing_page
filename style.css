@@ -93,10 +93,6 @@ main {
     vertical-align: middle;
 }
 
-.main__buttons {
-
-}
-
 .main__buttons--left, .main__buttons--right {
     width: 122px;
     height: 36px;
