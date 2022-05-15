@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+
+}
+
+.header {
+    padding: 15px;
+    line-height: 36px;
+}
+
+.header__left {
+    float: left;
+}
+
+.header__right {
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: #919090;
+    padding: 0.5rem;
+}
+
+.header__right--appicon {
+    vertical-align: middle;
+}
+
+.header__right--button {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    width: 96px;
+    height: 36px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.header__right--button:hover {
+    box-shadow: 0px 0px 4px rgb(86, 86, 86);
+    cursor: pointer;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.main__logo {
+    height: 92px;
+    width: 272px;
+}
+
+.main__searchbar {
+    border: 2px solid  #D3D3D3;
+    height: 39px;
+    width: 539px;
+    margin: 20px auto;
+    border-radius: 19.5px;
+
+}
+
+.main__searchbar--input {
+    height: 29px;
+    width: 440px;
+    border: none;
+    outline: none;
+    margin-top: 2px;
+}
+
+.main__searchbar--magnifier {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.main__searchbar--mic {
+    width: 15px;
+    vertical-align: middle;
+}
+
+.main__buttons {
+
+}
+
+.main__buttons--left, .main__buttons--right {
+    width: 122px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F8F9FA;
+    margin: 30px 0;
+}
+
+.main__buttons--left:hover, .main__buttons--right:hover {
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 0 3px rgb(211, 211, 211);
+}
+
+.main__language a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.footer__country {
+    padding: 1.5rem;
+    border-bottom: #5F6368;
+}
+
+.footer__bottom ul {
+    padding: 1rem;
+}
+
+.footer__bottom--left {
+    float: left;
+}
+
+.footer__bottom--right {
+    float: right;
+}
