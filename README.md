@@ -8,7 +8,7 @@ HTML, CSS
 
 ## Check the full-functioning site at: https://0xkiichiro.github.io/google_landing_page/
 
-![](https://github.com/0xkiichiro/parallax-website/blob/master/Animation.gif)
+![](https://github.com/0xkiichiro/google_landing_page/blob/master/Animation.png)
 
 ## Comments
 
